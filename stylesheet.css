@@ -1,0 +1,95 @@
+.container{
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-left h1{
+    letter-spacing: 4px;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 22px;
+}
+
+.header-list li{
+    font-size: 16px;
+    padding: 0 25px;
+    letter-spacing: 3px;
+}
+
+.header-list li:hover{
+    text-decoration: underline;
+}
+
+.top-wrapper{
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-title{
+    text-align: center;
+    letter-spacing: 4px;
+    padding: 30px 20px;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.contents{
+    display: flex;
+}
+
+.about-text{
+    padding-left: 80px;
+}
+
+.skill-content{
+    width: 50%;
+    text-align: center;
+}
+
+.skill-text{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skill-content i{
+    padding: 30px 0 40px 0;
+}
+
+.work-wrapper p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.work-contents{
+    text-align: center;
+}
+
+.work-contents img{
+    width: 45%;
+    margin: 2% 2%;
+    border: solid 1px #605d5d;
+}
+
+.contact-wrapper p{
+    text-align: center;
+    font-size: 20px;
+}
